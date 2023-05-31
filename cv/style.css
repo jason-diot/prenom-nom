@@ -27,7 +27,31 @@ nav li {
 /*Fin partie du header */
 /*Début image */
 
-image{
+.image{
     width: 100%;
 }
 /*Fin image*/
+
+/*Début accueil*/
+.accueil{
+    text-align: center;
+    color: white;
+}
+
+.parcours{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 55%;
+}
+
+.parcoursgauche{
+    width: 60%;
+    margin-right: 10px;
+}
+
+.parcoursimage{
+    margin-top: 2%;
+    float: right;
+}
