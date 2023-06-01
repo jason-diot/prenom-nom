@@ -1,21 +1,22 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: black;
+    background-color: rgb(16, 15, 15);
 }
 
-nav{
-    text-align: center; /* centrer le texte */
+nav {
+    text-align: center;
+    /* centrer le texte */
     font-size: 20px;
 }
 
-ul{
+ul {
     display: flex;
     justify-content: space-around;
 }
 
-a{
-    color:white;
+a {
+    color: white;
     text-decoration: none;
 }
 
@@ -27,18 +28,18 @@ nav li {
 /*Fin partie du header */
 /*Début image */
 
-.image{
+.image {
     width: 100%;
 }
 /*Fin image*/
 
 /*Début accueil*/
-.accueil{
+.accueil {
     text-align: center;
     color: white;
 }
 
-.parcours{
+.parcours {
     color: white;
     display: flex;
     flex-wrap: wrap;
@@ -46,41 +47,82 @@ nav li {
     height: 55%;
 }
 
-.parcoursgauche{
+.parcoursgauche {
     width: 60%;
     margin-right: 10px;
 }
 
-.parcoursimage{
+.parcoursimage {
     margin-top: 2%;
     float: right;
 }
 /*Fin accueil*/
 
 /*Début études*/
-.etudes{
+.etudes {
     background-image: url("backsetup.jpg");
-    padding-bottom: 10%; /*ça va créer un espace en dessous du dernier bloc blanc*/
+    padding-bottom: 10%;
+    /*ça va créer un espace en dessous du dernier bloc blanc*/
 }
-.titreetudes{
+.titreetudes {
     text-align: center;
     color: white;
 }
-.etudes h1{
+.etudes h1 {
     text-align: center;
 }
-.etudesecole{
+.etudesecole {
     margin-left: 23%;
 }
-.ecole{
+.ecole {
     width: 70%;
     height: 20%;
     background-color: white;
     align-items: center;
 }
-.ecole img{
+.ecole img {
     margin-left: 43%;
     width: 15%;
     height: 20%;
 }
 /* Fin études*/
+
+/*Début expériences*/
+.experiences {
+    background-image: url("desksetup.jfif");
+    padding-bottom: 5%;
+}
+.titreexperiences {
+    text-align: center;
+    color: white;
+}
+.experiences h1 {
+    text-align: center;
+}
+.expcadre {
+    margin-top: 5%;
+    margin-left: 23%;
+    /* Ca permet d'écarter les 2 blocs blanc vers la droite*/
+}
+.experiencespro {
+    width: 70%;
+    height: 20%;
+    background-color: white;
+    align-items: center;
+}
+.experiencespro img {
+    margin-left: 43%;
+    width: 10%;
+    height: 20%;
+}
+/*Fin expériences*/
+
+/*Début contact*/
+.contact {
+    color: white;
+}
+.mail:hover {
+    color: lightblue;
+    font-weight: bold;
+}
+/*Fin contatc*/
