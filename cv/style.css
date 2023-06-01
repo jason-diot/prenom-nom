@@ -56,3 +56,31 @@ nav li {
     float: right;
 }
 /*Fin accueil*/
+
+/*Début études*/
+.etudes{
+    background-image: url("backsetup.jpg");
+    padding-bottom: 10%; /*ça va créer un espace en dessous du dernier bloc blanc*/
+}
+.titreetudes{
+    text-align: center;
+    color: white;
+}
+.etudes h1{
+    text-align: center;
+}
+.etudesecole{
+    margin-left: 23%;
+}
+.ecole{
+    width: 70%;
+    height: 20%;
+    background-color: white;
+    align-items: center;
+}
+.ecole img{
+    margin-left: 43%;
+    width: 15%;
+    height: 20%;
+}
+/* Fin études*/
